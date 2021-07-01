@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Créez votre liste des cadeaux en ligne</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/cad.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+  <!-- Fixed navbar -->
+  <div id="navigation"  class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand smothscroll" href="#home"><b>Cadeaux</b></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home" class="smothscroll">Home</a></li>
+          <li><a href="#desc" class="smothscroll">Description</a></li>
+          <li><a href="#features" class="smothscroll">Quoi de neuf ?</a></li>
+          <li><a href="#contact" class="smothscroll">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <section id="home" name="home">
+    <div id="headerwrap">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-12">
+            <h1><b>Bienvenue !</b></h1>
+            <h3>Avec un seul clics vous pouvez ajouter et choisir la liste des cadeaux que vous voulez  ! 🎁</h3>
+            <br>
+            <br>
+            <a href="login.html" class="button instagram"><span class="gradient"></span>Créer ma liste !</a>
+            <br>
+          </div>
+        </div>
+      </div>
+      <!--/ .container -->
+    </div>
+    <!--/ #headerwrap -->
+  </section>
+
+
+  <section id="desc" name="desc">
+    <!-- INTRO WRAP -->
+    <div id="intro">
+      <div class="container">
+        <div class="row centered">
+          <h1 id="com">Comment ça marche ?</h1>
+          <br>
+          <br>
+                    <br>
+          <br>
+                    <br>
+          <br>
+          <div class="col-lg-4">
+            <img src="img/cade.png" id="cade" alt="">
+            <h3>JE COMPOSE MA LISTE</h3>
+            <p>En quelques clics ma liste est constituée avec les cadeaux qui me font rêver, quelque soit leur point de vente..</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/share.png" alt="" id="cade">
+            <h3>JE LA DIFFUSE A MES PROCHES</h3>
+            <p>Je partage ma liste avec famille et amis grâce au lien d'accès direct à ma liste de cadeaux.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/gift.png" alt="" id="cade">
+            <h3>JE RECOIS MES CADEAUX</h3>
+            <p>Mes proches choisissent les cadeaux qu'ils souhaitent m'offrir, je les reçois en main propre ou directement sur mon compte bancaire.</p>
+          </div>
+        </div>
+        <br>
+        <hr>
+      </div>
+      <!--/ .container -->
+    </div>
+    <!--/ #introwrap -->
+
+    <!-- FEATURES WRAP -->
+    <div id="features">
+      <div class="container">
+        <div class="row">
+          <h1 class="centered" id="qui">Quoi de neuf ?</h1>
+          <div class="col-lg-6 centered">
+            <img class="centered" id="ab" src="img/abe.png" alt="">
+          </div>
+
+          <div class="col-lg-6">
+            <h3 id="par">le but c'est l'organisation des évenements . Ce site offre a l'organisateur la creation d'une liste pour specifier les cadeaux qu'il souhaite avoir, et l'envoyer a ses invites (les offreurs des cadeaux).  Le site offre aussi une boutique dont l'offreur peut acheter les cadeaux.</h3>
+          </div>
+            <!-- Accordion -->
+          </div>
+        </div>
+      </div>
+      <!--/ .container -->
+    <!--/ #features -->
+  </section>
+  <section id="contact" name="contact">
+    <div id="footerwrap">
+      <div class="container">
+        <div class="col-lg-5">
+          <h3>Address</h3>
+          <p>
+             Avenue du Liban,<br/> Rabat, 10040
+            <br/> Maroc
+          </p>
+        </div>
+
+        <div class="col-lg-7">
+          <h3>Drop Us A Line</h3>
+
+          <br>
+          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <div class="form-group">
+              <label for="contact-name">Your Name</label>
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Your Email</label>
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Your Message</label>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large">Send Message</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Pratt</strong>. All Rights Reserved 
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/pratt-app-landing-page-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Pratt template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
